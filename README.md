@@ -1,0 +1,9 @@
+# amazon-clone
+https://clone-1ac21.firebaseapp.com/
+
+This a Full Stack Ecommerce application...
+
+Frontend with Firebase and React...
+Backend with Node js...
+
+To test payments functionality you can tipe - 4242 4242 4242 4242 04/24 242 42424
