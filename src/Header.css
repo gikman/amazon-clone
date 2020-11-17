@@ -1,0 +1,121 @@
+.header {
+  height: 68px;
+  display: flex;
+  align-items: center;
+  background-color: #131921;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.header__logo {
+  width: 100px;
+  object-fit: contain;
+  margin: 0 20px;
+  margin-top: 18px;
+}
+/* .header__logo:hover {
+  background-color: teal;
+  outline-color: white;
+  border-color: white;
+} */
+
+.header__search {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  border-radius: 24px;
+}
+
+.header__searchInput {
+  height: 22px;
+  padding: 10px;
+  border: none;
+  width: 100%;
+  border-radius: 5px 0px 0px 5px;
+}
+
+.header__searchIcon {
+  padding: 5px;
+  height: 32px !important;
+  background-color: #cd9042;
+  border-radius: 0px 5px 5px 0px;
+}
+
+.header__optionLineOne {
+  font-size: 12px;
+  font-weight: 500;
+  text-decoration-line: none; 
+  text-decoration-style: none;
+  border-bottom-style: hidden;
+}
+
+.header__optionLineTwo {
+  font-size: 13px;
+  font-weight: 800;
+  text-decoration-line: none; 
+  text-decoration-style: none;
+}
+
+.header__optionBasket {
+  display: flex;
+  align-items: center;
+  color: white;
+}
+
+.header__basketCount {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.header__nav {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.header__option {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+span {
+  text-decoration: none; 
+  text-decoration-style: none;
+  border-bottom-style: hidden;
+}        
+a:visited {text-decoration: none; color: black;} 
+a:hover {text-decoration: none;}   
+a:active {text-decoration: none;}
+
+@media only screen and (max-width: 640px) {
+  .header {
+    align-self: stretch;
+    align-items: stretch;
+    height: 130px;
+    display: flex;
+    flex-flow: wrap;
+    width: 100%;
+    align-items: center;
+    background-color: #131921;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+  }
+
+  .header__logo {
+    /* width: 100%; */
+    object-fit: contain;
+    margin: 0 20px;
+    margin-top: 18px;
+  }
+
+  .header__optionBasket {
+    display: flex;
+    flex-flow: wrap;
+    align-items: center;
+    color: white;
+  }
+}
